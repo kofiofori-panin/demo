@@ -169,8 +169,8 @@ ul li a:hover{
     height: 380px;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
     position: absolute;
-    top: -20px;
-    left: 870px;
+    top: 20px;
+    left: 900px;
     border-radius: 10px;
     padding: 25px;
 }
@@ -179,11 +179,89 @@ ul li a:hover{
     width: 220px;
     font-family: Impact;
     text-align: center;
-    color: #54B435;
+    color: #278508;
     font-size: 22px;
-    background-color: wheat;
-    border-radius: 10px;
-    margin: 2px;
-    padding: 8px;
 }
 
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #379237;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: wheat;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: Geneva;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: wheat;
+    font-family: Sans-serif;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #278508;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: wheat;
+    transition: 0.35s ease; 
+}
+
+.btnn:hover{
+    background: wheat;
+    color: #1e6806;
+}
+
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.form .link{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link a{
+    text-decoration: none;
+    color: wheat;
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.icon a{
+    text-decoration: none;
+    color: wheat;
+}
+
+.icon ion-icon{
+    color: wheat;
+    font-size: 30px;
+    padding-left: 17px;
+    padding-top: 5px;
+    transition: 0.35s ease;
+}
+
+.icon ion-icon:hover{
+    color: #278508;
+}
