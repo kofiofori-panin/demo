@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    width: 112%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(back.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 106vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #134702;
+    font-size: 40px;
+    font-family: Comic Sans MS;
+    padding-left: 10%;
+    float: left;
+    padding-top: 10px;
+    
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: wheat;
+    font-family: Bodoni MT;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+ul li a:hover{
+    color: #54B435;
+}
+
+.search{
+    width: 500px;
+    float: left;
+    margin-left: 800px;
+}
+
+.srch{
+    font-family: 'Trebuchet MS';
+    width: 250px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #54B435;
+    margin-top: 15px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #54B435;
+    border: 2px solid #54B435;
+    margin-top: 15px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1400px;
+    height: auto;
+    margin: auto;
+    color: #54B435;
+    position: relative;
+}
+
+.par{
+    color: black;
+}
+
+.content .par{
+    padding-left: 0px;
+    padding-bottom: 25px;
+    font-family: Tahoma;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: Times New Roman;
+    font-size: 50px;
+    padding-left: 5px;
+    margin-top: 5%;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 170px;
+    height: 45px;
+    background: #54B435;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: wheat;
+}
+
+.content span{
+    color: wheat;
+    font-size: 70px;
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: Impact;
+    text-align: center;
+    color: #54B435;
+    font-size: 22px;
+    background-color: wheat;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
