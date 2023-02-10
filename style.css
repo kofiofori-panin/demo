@@ -13,7 +13,7 @@
 }
 
 .navbar{
-    width: 1200px;
+    width: 1400px;
     height: 75px;
     margin: auto;
 }
@@ -35,9 +35,9 @@
 }
 
 .menu{
-    width: 400px;
+    width: 800px;
     float: left;
-    height: 70px;
+    height: 90px;
 }
 
 ul{
@@ -49,9 +49,9 @@ ul{
 
 ul li{
     list-style: none;
-    margin-left: 60px;
-    margin-top: 27px;
-    font-size: 14px;
+    margin-left: 70px;
+    margin-top: 37px;
+    font-size: 15px;
 }
 
 ul li a{
@@ -69,7 +69,8 @@ ul li a:hover{
 .search{
     width: 500px;
     float: left;
-    margin-left: 800px;
+    margin-left: 902px;
+    margin-top: -80px;
 }
 
 .srch{
@@ -88,7 +89,7 @@ ul li a:hover{
     border-top-left-radius: 5px;
 }
 
-.btn{
+.btn {
     width: 100px;
     height: 40px;
     background: #54B435;
@@ -96,7 +97,7 @@ ul li a:hover{
     margin-top: 15px;
     color: white;
     font-size: 15px;
-    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: px;
     border-bottom-right-radius: 5px;
 }
 
@@ -169,8 +170,8 @@ ul li a:hover{
     height: 380px;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
     position: absolute;
-    top: 20px;
-    left: 900px;
+    top: 35px;
+    left: 930px;
     border-radius: 10px;
     padding: 25px;
 }
